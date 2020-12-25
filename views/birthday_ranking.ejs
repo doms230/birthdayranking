@@ -53,8 +53,25 @@
         <p><a href="https://instagram.com/sound_brew" class="nav-footer">©2020 Soundbrew, Inc.</a></p>
       </footer>
     </div>
+
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+    <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBC0HrxDCgH0BODrIJdi9mPlsumA1Hoj1M",
+      authDomain: "birthday-ranking.firebaseapp.com",
+      projectId: "birthday-ranking",
+      storageBucket: "birthday-ranking.appspot.com",
+      messagingSenderId: "715609194270",
+      appId: "1:715609194270:web:452e8b04e4b43536a7130f",
+      measurementId: "G-1S1D6YY1SK"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
   </body>
 </html>
 
