@@ -86,7 +86,7 @@ function getBirthdayRank(birthday) {
       return "34"
     case "november23":
       return "35"
-    case "September22":
+    case "september22":
       return "36"
     case "november18":
       return "37"
@@ -744,6 +744,8 @@ function getBirthdayRank(birthday) {
       return "365"
     case "february1":
       return "366"
+      default:
+        return "101"
   }
 }
 
